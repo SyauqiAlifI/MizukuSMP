@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply hover:transition-all
+}
+
+.landingLinks {
+  @apply transition-all ease-linear py-4 relative hover:text-[rgb(255,255,255,1)] after:block after:content-[''] after:absolute after:mt-2 after:h-[3px] after:w-[20%] after:bg-[rgb(255,255,255,0)] hover:after:bg-[rgb(255,255,255,0.65)] after:translate-x-[180%]
+}
